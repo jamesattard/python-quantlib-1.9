@@ -13,6 +13,7 @@ $ (venv) python3 setup.py install
 
 This will install QuantLib in the 'venv' virtual environment. To use this module, just import QuantLib.
 
+```
 python-quantlib-1.9/
 ├── acinclude.m4
 ├── aclocal.m4
@@ -39,3 +40,4 @@ python-quantlib-1.9/
 │   ├── setup.py.in
 │   └── test
 └── Readme.txt
+```
