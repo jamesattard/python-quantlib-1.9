@@ -9,6 +9,9 @@ $ tar zxvf python-quantlib-1.9.tgz
 $ python3 -m virtualenv venv && source venv/bin/activate
 $ (venv) cd python-quantlib-1.9/Python
 $ (venv) python3 setup.py install 
+$ sudo add-apt-repository ppa:edd/misc
+$ sudo apt-get update
+$ sudo apt install libquantlib0-dev
 ```
 
 This will install QuantLib in the 'venv' virtual environment. To use this module, just import QuantLib.
