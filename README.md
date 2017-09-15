@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-$ git clone https://github.com/python-quantlib-1.9
+$ git clone https://github.com/jamesattard/python-quantlib-1.9
 $ cd python-quantlib-1.9
 $ tar zxvf python-quantlib-1.9.tgz
 $ python3 -m virtualenv venv && source venv/bin/activate
